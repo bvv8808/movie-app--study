@@ -5,9 +5,10 @@ body,
   height: 100%;
   display: flex;
   justify-content: center;
+  overflow: auto;
 }
 body {
-  background-color: #f2f2f2;
+  background-color: #333;
   margin: 0;
   padding: 0;
 }
@@ -21,6 +22,7 @@ body {
   height: 30%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .homeHeader nav {
   position: fixed;
@@ -28,17 +30,25 @@ body {
   width: 80%;
   top: 0;
   left: 10%;
-  height: 90px;
+  height: 70px;
   padding: 3px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
 
-  background-color: #f2f2f2;
+  background-color: #333;
+
   box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
     0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
   /* border: 1px solid red; */
+}
+.homeHeader span {
+  color: #c74444;
+  /* font-weight: lighter; */
+  font-size: 75px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-shadow: 1px 1px 2px #000;
 }
 .homeHeader img {
   width: 50px;
@@ -57,15 +67,17 @@ body {
   position: relative;
   height: 50%;
   text-decoration: none;
-  color: #222;
+  color: #e0e0e0;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 25px;
   padding: 10px;
-  line-height: 1;
-  transition: all 0.4s linear;
+  margin: 20px;
+  line-height: 0.5;
+  transition: all 0.3s linear;
 }
 .homeHeader .navMenu a:hover {
-  color: #000;
+  color: #fff;
+  text-shadow: 0 0 3px #fff;
 }
 .borderBox {
   position: absolute;

@@ -36,11 +36,15 @@ export default ({ children }) => {
         <nav>
           <img src={logoActive} alt="logo" />
           <div className="navMenu">
+            <Link to="/">
+              HOME<div className="borderBox"></div>
+            </Link>
             <Link to="/about">
               ABOUT<div className="borderBox"></div>
             </Link>
           </div>
         </nav>
+        <span>Movie App</span>
       </header>
       <section className="content">{children}</section>
     </div>
