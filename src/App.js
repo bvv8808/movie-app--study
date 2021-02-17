@@ -8,7 +8,7 @@ import Navigation from "./components/Navigation";
 export default () => {
   return (
     <HashRouter>
-      <Navigation />
+      {/* <Navigation /> */}
       <Route path="/" exact={true} component={Home} />
       <Route path="/about" exact={true} component={About} />
       <Route path="/movie/:id" exact={true} component={Detail} />

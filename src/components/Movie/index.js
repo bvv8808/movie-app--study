@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Movie.css";
 
 import PropTypes from "prop-types";
 
 const Movie = ({ id, year, title, summary, poster, genres }) => {
   return (
     <Link
+      className="ToDetail"
       to={{
         pathname: `/movie/${id}`,
         state: {

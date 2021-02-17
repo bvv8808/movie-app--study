@@ -1,4 +1,5 @@
 import React from "react";
+import Layout from "../../components/Layout";
 
 class Detail extends React.Component {
   componentDidMount() {
@@ -10,7 +11,12 @@ class Detail extends React.Component {
   render() {
     const { location } = this.props;
     if (!location.state) return null;
-    return <span>{location.state.title}</span>;
+    return (
+      <Layout>
+        <img src={location.state.poster} alt="poster" className="mainPoster" />
+        <span>{location.state.title}</span>
+      </Layout>
+    );
   }
 }
 

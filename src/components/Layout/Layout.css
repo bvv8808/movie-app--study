@@ -1,0 +1,91 @@
+html,
+body,
+#root,
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeHeader {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+}
+.homeHeader nav {
+  position: fixed;
+  z-index: 1000;
+  width: 80%;
+  top: 0;
+  left: 10%;
+  height: 90px;
+  padding: 3px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #f2f2f2;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  /* border: 1px solid red; */
+}
+.homeHeader img {
+  width: 50px;
+}
+.homeHeader .navMenu {
+  width: calc(100% - 100px);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.homeHeader .navMenu a {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  height: 50%;
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 10px;
+  line-height: 1;
+  transition: all 0.4s linear;
+}
+.homeHeader .navMenu a:hover {
+  color: #000;
+}
+.borderBox {
+  position: absolute;
+  /* width: 0; */
+  height: 0;
+  border-radius: 7px;
+  border: 2px solid #c74444;
+  top: 100%;
+}
+
+.content {
+  height: 70%;
+  width: 80%;
+}
+
+@keyframes wide {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 10px;
+  }
+}
