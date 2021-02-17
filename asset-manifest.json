@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/movie-app--study/static/css/main.dbe99ec3.chunk.css",
-    "main.js": "/movie-app--study/static/js/main.d9a72afa.chunk.js",
-    "main.js.map": "/movie-app--study/static/js/main.d9a72afa.chunk.js.map",
-    "runtime-main.js": "/movie-app--study/static/js/runtime-main.cb668f1c.js",
-    "runtime-main.js.map": "/movie-app--study/static/js/runtime-main.cb668f1c.js.map",
-    "static/js/2.ff634ebb.chunk.js": "/movie-app--study/static/js/2.ff634ebb.chunk.js",
-    "static/js/2.ff634ebb.chunk.js.map": "/movie-app--study/static/js/2.ff634ebb.chunk.js.map",
-    "static/js/3.040c880e.chunk.js": "/movie-app--study/static/js/3.040c880e.chunk.js",
-    "static/js/3.040c880e.chunk.js.map": "/movie-app--study/static/js/3.040c880e.chunk.js.map",
+    "main.css": "/movie-app--study/static/css/main.987f4c6d.chunk.css",
+    "main.js": "/movie-app--study/static/js/main.01a27b47.chunk.js",
+    "main.js.map": "/movie-app--study/static/js/main.01a27b47.chunk.js.map",
+    "runtime-main.js": "/movie-app--study/static/js/runtime-main.fdb90a69.js",
+    "runtime-main.js.map": "/movie-app--study/static/js/runtime-main.fdb90a69.js.map",
+    "static/js/2.fa5753a3.chunk.js": "/movie-app--study/static/js/2.fa5753a3.chunk.js",
+    "static/js/2.fa5753a3.chunk.js.map": "/movie-app--study/static/js/2.fa5753a3.chunk.js.map",
+    "static/js/3.fc77ae44.chunk.js": "/movie-app--study/static/js/3.fc77ae44.chunk.js",
+    "static/js/3.fc77ae44.chunk.js.map": "/movie-app--study/static/js/3.fc77ae44.chunk.js.map",
     "index.html": "/movie-app--study/index.html",
-    "static/css/main.dbe99ec3.chunk.css.map": "/movie-app--study/static/css/main.dbe99ec3.chunk.css.map",
-    "static/js/2.ff634ebb.chunk.js.LICENSE.txt": "/movie-app--study/static/js/2.ff634ebb.chunk.js.LICENSE.txt",
+    "static/css/main.987f4c6d.chunk.css.map": "/movie-app--study/static/css/main.987f4c6d.chunk.css.map",
+    "static/js/2.fa5753a3.chunk.js.LICENSE.txt": "/movie-app--study/static/js/2.fa5753a3.chunk.js.LICENSE.txt",
     "static/media/logo-active.df6a9b18.png": "/movie-app--study/static/media/logo-active.df6a9b18.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.cb668f1c.js",
-    "static/js/2.ff634ebb.chunk.js",
-    "static/css/main.dbe99ec3.chunk.css",
-    "static/js/main.d9a72afa.chunk.js"
+    "static/js/runtime-main.fdb90a69.js",
+    "static/js/2.fa5753a3.chunk.js",
+    "static/css/main.987f4c6d.chunk.css",
+    "static/js/main.01a27b47.chunk.js"
   ]
 }
